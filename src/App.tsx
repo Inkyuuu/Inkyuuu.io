@@ -18,7 +18,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="resume" element={<Resume />} />
           <Route path="work-samples" element={<WorkSamples />} />
-          <Route path="*" element={<h2>404 - Page not found :(</h2>} />
+          <Route path="*" element={<h2>404 - Page not found</h2>} />
         </Route>
       </Routes>
     </BrowserRouter>
