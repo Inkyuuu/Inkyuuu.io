@@ -1,6 +1,5 @@
 export type skill_mode = 'skillset' | 'coursework' | null;
-import {useState} from 'react';
-function Skills({setMode, mode}:{setMode: (value: skill_mode) => void; mode: skill_mode;}){
+function Skills({mode}:{mode: skill_mode;}){
     return(
         <div className =  "option">
             <div>
