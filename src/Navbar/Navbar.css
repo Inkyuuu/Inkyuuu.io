@@ -1,12 +1,12 @@
-nav {
+/* nav {
     width: 100%;
     top: 0;
     left: 0;
-    position: relative; /* Change to 'fixed' if you want it to stick to the top on scroll */
+    position: relative;
     background-color: #333;
     padding: 16px;
-    box-sizing: border-box; /* Ensures padding doesn't exceed width */
-}
+    box-sizing: border-box; 
+} */
 
 .nav-items {
     list-style-type: none;
