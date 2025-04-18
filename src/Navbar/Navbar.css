@@ -1,0 +1,37 @@
+nav {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative; /* Change to 'fixed' if you want it to stick to the top on scroll */
+    background-color: #333;
+    padding: 16px;
+    box-sizing: border-box; /* Ensures padding doesn't exceed width */
+}
+
+.nav-items {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+    border-left: none;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+}
+  
+.nav-item {
+float: left;
+}
+
+.nav-item a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-item a:hover {
+background-color: #111;
+}

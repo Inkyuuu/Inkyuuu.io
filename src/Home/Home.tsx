@@ -4,13 +4,15 @@ import './Home.css'
 function Home(){
     const [mode, setMode] = useState<skill_mode>('skillset');
     return(
-    <div>
+    <>
         <img src="src\assets\IMG_7104.jpg" className = "circle-image"/>
-        <button onClick = {() => setMode('skillset')}> skillset </button>
-        |
-        <button onClick = {() => setMode('coursework')}> relevant coursework </button>
-        <Skills mode={mode}/>
-    </div>
+        <div className = "info-box">
+            <button onClick = {() => setMode('skillset')}> <a className="text-ul">skillset</a> </button>
+            |
+            <button onClick = {() => setMode('coursework')}> <a className="text-ul">relevant coursework</a> </button>
+            <Skills mode={mode}/>
+        </div>
+    </>
     );
 }
 export default Home;
