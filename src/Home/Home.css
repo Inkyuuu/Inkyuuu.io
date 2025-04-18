@@ -48,5 +48,21 @@ transform-origin: center;
 transform: scale(1);
 }
   
-  
+.info{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200px; /* Controls how many items per column */
+  column-gap: 20px;
+  padding-bottom: 80px;
+}
+
+.intro{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 50%;
+  column-gap: 20px;
+}
   

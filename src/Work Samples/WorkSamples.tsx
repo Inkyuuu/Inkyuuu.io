@@ -1,6 +1,6 @@
 function WorkSamples(){
     return(
-        <div>
+        <div className="main">
             <h1>NoteFlow: React, Python</h1>
             <p>
                 NoteFlow is a collaborative, AI-assisted note-taking application that helps students write better notes. With NoteFlow, you can:

@@ -1,12 +1,14 @@
 function Resume(){
     return(
-    <iframe
-    src={"https://docs.google.com/document/d/1OUw0zrsUu4G5mehwDE2yf8aOu5v6MXReexYD9V9gWmU/edit?usp=sharing"}
-    title="Embedded Google Doc"
-    width="1000"
-    height="1000"
-    allowFullScreen
-  ></iframe>
+      <div className="main">
+        <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vS-dY-pg89hglvyp9FGGgja-ADSqlaWwcTvxfzcPAOzaBUqtWmLr9M6a9zNoV5g-QgfCzLORUNcH1U6/pub?embedded=true"
+        width="1000"
+        height="1000"
+        >
+        </iframe>
+      </div>
+      
     );
 }
 export default Resume;
