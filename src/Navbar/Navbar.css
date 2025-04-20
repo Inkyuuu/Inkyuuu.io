@@ -1,37 +1,30 @@
-/* nav {
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: relative;
-    background-color: #333;
-    padding: 16px;
-    box-sizing: border-box; 
-} */
 
-.nav-items {
-    list-style-type: none;
-    margin: 0;
-    margin-left: 0;
-    padding: 0;
-    border-left: none;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-}
-  
-.nav-item {
-float: left;
+nav {
+width: 100%;
+background-color: #745b5b;
+padding-top: 0px;
 }
 
-.nav-item a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 2px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+
+nav ul li a {
 text-decoration: none;
+color: white;
+font-weight: bold;
+transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-/* Change the link color to #111 (black) on hover */
-.nav-item a:hover {
-background-color: #111;
+nav ul li a:hover {
+color: #ffd700;
+background-color: #444;
 }
+
+

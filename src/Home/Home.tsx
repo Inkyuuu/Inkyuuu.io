@@ -6,7 +6,13 @@ function Home(){
     return(
     <div className="main">
         <div className="info">
-            <img src="src\assets\IMG_7104.jpg" className = "circle-image"/>
+            <div className="image-container">
+                <img src="src\assets\IMG_7104.jpg" className = "circle-image"/>
+                <h4>Amy Zeng</h4>
+                <p>(she/her)</p>
+                <h5>GitHub: <a href="https://github.com/Inkyuuu" target="_blank">Inkyuuu</a></h5>
+                <h5>Email: amy.zeng.dev@gmail.com</h5>
+            </div>
             <div className="intro">
                 <h1>
                     printf("Hello, World!");
@@ -17,9 +23,11 @@ function Home(){
             </div>
         </div>
         <div className = "info-box">
-            <button onClick = {() => setMode('skillset')}> <a className="text-ul">skillset</a> </button>
-            |
-            <button onClick = {() => setMode('coursework')}> <a className="text-ul">relevant coursework</a> </button>
+            <div className="mode-container">
+                <button onClick = {() => setMode('skillset')}> <a className="text-ul">skillset</a> </button>
+                |
+                <button onClick = {() => setMode('coursework')}> <a className="text-ul">coursework</a> </button>
+            </div>
             <Skills mode={mode}/>
         </div>
     </div>

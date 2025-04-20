@@ -1,0 +1,6 @@
+.resume-container {
+    display: flex;
+    justify-content: center; /* Horizontally centers */
+    padding: 20px;
+    width: 100%;
+  }

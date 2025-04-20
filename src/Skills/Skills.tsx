@@ -1,12 +1,13 @@
+import './Skills.css'
 export type skill_mode = 'skillset' | 'coursework' | null;
 function Skills({mode}:{mode: skill_mode;}){
     return(
-        <div className =  "option">
+        <div className =  "skills">
             <div>
-                {mode === 'skillset' && <h2>
+                {mode === 'skillset' && <h4>
                     I have experience in languages such as <b>Python, C, C++, JavaScript/TypeScript, HTML</b> and <b>Java</b>. 
                     In addition, I am able to utilize other industry standard technologies and frameworks such as <b>Jira, GitHub, React</b> and have experience in <b>Agile development</b>.
-                    </h2>}
+                    </h4>}
                 {mode === 'coursework' && 
                     <div>
                         <h2><b>click</b> to view course descriptions</h2>
