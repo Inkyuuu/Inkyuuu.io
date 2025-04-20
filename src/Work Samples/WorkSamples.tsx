@@ -20,7 +20,7 @@ function WorkSamples(){
                 </li>
             </ul>
             <h2>Explore NoteFlow!</h2>
-            <embed src="https://cse115a-noteflow.github.io/noteflow/" width = "100%" height ="800"></embed>
+            <embed src="https://cse115a-noteflow.github.io/noteflow/" width = "80%" height ="600"></embed>
             <h2> Or watch a demonstration video, if you prefer: </h2>
             <iframe 
             width="560" 

@@ -5,9 +5,11 @@
   flex-direction: column;
   gap: 24px;
 }
+
 :root{
   padding: none;
   background-color: #EBE7E2;
+  color: #A29F9C;
 }
 button{
   background-color: transparent;
