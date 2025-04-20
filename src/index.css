@@ -6,10 +6,46 @@
   gap: 24px;
 }
 
+.text-ul {
+  display: block;
+  position: relative;
+  padding: 0.1em 0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}
+  
+.text-ul::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: rgb(255, 255, 255);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.text-ul:hover::after,
+.text-ul:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.1em, 0);
+}
+
+.text-ul::after {
+  transform: scale(0);
+  transform-origin: center;
+}
+
+.text-ul:hover::after,
+.text-ul:focus::after{
+  transform: scale(1);
+}
+
 :root{
   padding: none;
   background-color: #EBE7E2;
-  color: #A29F9C;
+  color: #464544;
 }
 button{
   background-color: transparent;
