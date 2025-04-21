@@ -1,0 +1,14 @@
+.sample-info{
+    width: 90%;
+    margin-left: 5%;
+}
+
+ul.custom{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0px;
+  }

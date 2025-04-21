@@ -10,8 +10,8 @@ function Skills({mode}:{mode: skill_mode;}){
                     </h4>}
                 {mode === 'coursework' && 
                     <div>
-                        <h2><b>click</b> to view course descriptions</h2>
-                        <ul>
+                        <center><h5><b>click</b> to view course descriptions</h5></center>
+                        <ul className="custom">
                             <li>
                                 <a href = "https://catalog.ucsc.edu/en/current/general-catalog/courses/cse-computer-science-and-engineering/lower-division/cse-40/" target = "_blank">
                                     Machine Learning Basics: Data Analysis and Empirical Methods

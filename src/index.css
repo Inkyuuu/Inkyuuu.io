@@ -3,13 +3,13 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  gap: 24px;
 }
 
 .text-ul {
   display: block;
   position: relative;
   padding: 0.1em 0;
+  color: #464544;
   font-family: "DM Sans", sans-serif;
   font-weight: bold;
 }
@@ -21,7 +21,7 @@
   left: 0;
   width: 100%;
   height: 0.1em;
-  background-color: rgb(255, 255, 255);
+  background-color: #a29f9c;
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
 }
@@ -48,6 +48,9 @@
   color: #464544;
 }
 button{
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  color: #464544;
   background-color: transparent;
   border: none;
 }
@@ -70,6 +73,7 @@ h2{
   font-family: "DM Sans", sans-serif;
   font-size: 30px;
   font-weight: bold;
+  margin: 0px;
 }
 
 h3{
@@ -100,4 +104,13 @@ p{
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: normal;
+}
+
+a{
+  color: #807e7b;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #a29f9c;
 }
