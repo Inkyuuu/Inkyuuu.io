@@ -7,7 +7,7 @@ function Home(){
     <div className="main">
         <div className="info">
             <div className="image-container">
-                <img src="src\assets\IMG_7104.jpg" className = "circle-image"/>
+                <img src="../src/assets/IMG_7104.jpg" className = "circle-image"/>
                 <h4>Amy Zeng</h4>
                 <p>(she/her)</p>
                 <h5>GitHub: <a href="https://github.com/Inkyuuu" target="_blank">Inkyuuu</a></h5>
