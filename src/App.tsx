@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Resume from './Resume/Resume'
 import WorkSamples from './Work Samples/WorkSamples'
@@ -9,16 +9,16 @@ import Home from './Home/Home';
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="portfolio" element={<Navbar/>}>
+        <Route path="/" element={<Navbar/>}>
           <Route index element={<Home />} />
-          <Route path="portfolio/resume" element={<Resume />} />
-          <Route path="portfolio/work-samples" element={<WorkSamples />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="work-samples" element={<WorkSamples />} />
           <Route path="*" element={<h2>404 - Page not found</h2>} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
