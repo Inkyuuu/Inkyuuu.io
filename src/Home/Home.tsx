@@ -1,13 +1,14 @@
 import {useState} from 'react'
 import Skills, {type skill_mode} from '../Skills/Skills'
 import './Home.css'
+import img from '../../src/assets/IMG_7104.jpg'
 function Home(){
     const [mode, setMode] = useState<skill_mode>('skillset');
     return(
     <div className="main">
         <div className="info">
             <div className="image-container">
-                <img src="./src/assets/IMG_7104.jpg" className = "circle-image"/>
+                <img src={img} className = "circle-image"/>
                 <h4>Amy Zeng</h4>
                 <p>(she/her)</p>
                 <h5>GitHub: <a href="https://github.com/Inkyuuu" target="_blank">Inkyuuu</a></h5>
