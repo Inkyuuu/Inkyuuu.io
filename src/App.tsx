@@ -11,10 +11,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navbar/>}>
+        <Route path="portfolio" element={<Navbar/>}>
           <Route index element={<Home />} />
-          <Route path="resume" element={<Resume />} />
-          <Route path="work-samples" element={<WorkSamples />} />
+          <Route path="portfolio/resume" element={<Resume />} />
+          <Route path="portfolio/work-samples" element={<WorkSamples />} />
           <Route path="*" element={<h2>404 - Page not found</h2>} />
         </Route>
       </Routes>
