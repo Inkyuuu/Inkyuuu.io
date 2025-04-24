@@ -1,12 +1,8 @@
-import resume from '../../src/assets/Resume 2025.pdf'
+import resume from '../../src/assets/Resume 2025.jpg'
 function Resume(){
     return(
       <center>
-        <iframe
-        src={resume}
-        style={{ width: "100%", height: "1082px", border: "none" }}
-        >
-        </iframe>
+        <img src={resume} width= "50%"></img>
       </center>
       
     );
